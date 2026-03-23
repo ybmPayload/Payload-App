@@ -35,7 +35,7 @@ if os.path.exists(filename):
         print("Total no. of rows: %d" % csvreader.line_num)  # Row count
 
 print('Field names are: ' + ', '.join(fields))
-print('First ',len(rows),' rows are:')
+print('First ',len(rows),' rows are:')  #len is used to count how many rows there are
 for row in rows:
     for col in row:
         print("%10s" % col, end=" ")
